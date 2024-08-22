@@ -5,17 +5,17 @@ This repository contains a Python script designed for exploiting LDAP injection 
 ## 📚 Table of Contents
 
 - [Features](#-features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-  - [Signal Handling](#signal-handling)
-  - [User Enumeration](#user-enumeration)
+- [Prerequisites](#%EF%B8%8F-prerequisites)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [How It Works](#-how-it-works)
+  - [Signal Handling](#-signal-handling)
+  - [User Enumeration](#-user-enumeration)
   - [Email Extraction](#email-extraction)
-  - [Description and Phone Number Extraction](#description-and-phone-number-extraction)
-  - [Customization](#customization)
-- [Disclaimer](#disclaimer)
-- [License](#license)
+  - [Description and Phone Number Extraction](#-description-and-phone-number-extraction)
+  - [Customization](#-customization)
+- [Disclaimer](#-disclaimer)
+- [License](#-license)
 
 ## ✨ Features
 
