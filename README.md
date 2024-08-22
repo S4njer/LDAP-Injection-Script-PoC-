@@ -9,6 +9,7 @@ This repository contains a Python script designed for exploiting LDAP injection 
 
 - [Features](#-features)
 - [Prerequisites](#%EF%B8%8F-prerequisites)
+  - [Adding Users](#-adding-users)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [How It Works](#-how-it-works)
@@ -33,6 +34,26 @@ This repository contains a Python script designed for exploiting LDAP injection 
 - **Burp Suite** or any other proxy tool should be configured and running.
 - Install dependencies via `pip install -r requirements.txt` if a `requirements.txt` is provided.
 
+## ➕ Adding Users
+To use the script effectively, you need to add users to the LDAP directory. You can do this by creating and modifying a newuser.ldif file. Below is an example of what the newuser.ldif file might look like:
+
+``` txt
+dn: uid=newuser,ou=users,dc=example,dc=org
+objectClass: inetOrgPerson
+sn: User
+cn: New User
+uid: newuser
+mail: newuser@example.org
+userPassword: password
+telephoneNumber: 123456789
+description: This is a test user
+```
+
+After creating the newuser.ldif file, modify the user details as needed and add them to the LDAP directory using the following command:
+`
+`` bash
+ldapadd -x -H ldap://localhost -D "cn=admin,dc=example,dc=org" -w admin -f newuser.ldif
+```
 ## 📥 Installation
 
 1. Clone the repository:
