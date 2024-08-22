@@ -4,7 +4,7 @@ This repository contains a Python script designed for exploiting LDAP injection 
 
 ## 📚 Table of Contents
 
-- [Features](#features)
+- [Features](https://github.com/S4njer/LDAP-Injection-Script-PoC-/blob/main/#-features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
