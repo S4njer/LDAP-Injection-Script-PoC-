@@ -50,10 +50,11 @@ description: This is a test user
 ```
 
 After creating the newuser.ldif file, modify the user details as needed and add them to the LDAP directory using the following command:
-`
-`` bash
+
+``` bash
 ldapadd -x -H ldap://localhost -D "cn=admin,dc=example,dc=org" -w admin -f newuser.ldif
 ```
+
 ## 📥 Installation
 
 1. Clone the repository:
