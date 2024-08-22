@@ -1,0 +1,9 @@
+dn: uid=newuser,ou=users,dc=example,dc=org
+objectClass: inetOrgPerson
+sn: User
+cn: New User
+uid: newuser
+mail: newuser@example.org
+userPassword: password
+telephoneNumber: 123456789
+description: This is a test user
