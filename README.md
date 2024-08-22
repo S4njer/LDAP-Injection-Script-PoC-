@@ -2,6 +2,9 @@
 
 This repository contains a Python script designed for exploiting LDAP injection vulnerabilities in a controlled environment. The script allows you to extract and visualize user descriptions, phone numbers, and usernames by leveraging LDAP injection techniques. The environment setup and configuration can be found in [this repository](https://github.com/motikan2010/LDAP-Injection-Vuln-App).
 
+![image](https://github.com/user-attachments/assets/354485b6-5527-4082-9cfe-701339b718e2)
+
+
 ## 📚 Table of Contents
 
 - [Features](#-features)
